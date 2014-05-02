@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nickname:</strong>
+  <%= @user.nickname %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @user.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @user.last_name %>
+</p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @user.uuid %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @user.email %>
+</p>
+
+<p>
+  <strong>Payment type:</strong>
+  <%= @user.payment_type %>
+</p>
+
+<p>
+  <strong>User type:</strong>
+  <%= @user.user_type %>
+</p>
+
+<p>
+  <strong>Paypal email:</strong>
+  <%= @user.paypal_email %>
+</p>
+
+<p>
+  <strong>Notes:</strong>
+  <%= @user.notes %>
+</p>
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>
